@@ -1,9 +1,2 @@
-In my testing suite, I tested various methods including the code lines given in the spec.
-
-As I continued to test out new methods, I ran into problems while checking for unsigned versus signed immediates
-and larger L values accepted by ld. I created separate files to specifically test these cases and ensure that the correct
-immediate values were in bounds.
-
-Then, I reran the same code lines and used their outputted tko files in order to test and debug my simulator
-via print statements.
+Given assembly code, this program converts it into object code and then simulates those instructions on local machine. Valid instructions include arithmetic, control, I/O, and data movement along w/ macros.
 
