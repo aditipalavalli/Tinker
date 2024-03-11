@@ -1,0 +1,5 @@
+In my testing suite, I tested various methods including the code lines given in the spec.
+
+As I continued to test out new methods, I ran into problems while checking for unsigned versus signed immediates
+and larger L values accepted by ld. I created separate files to specifically test these cases and ensure that the correct
+immediate values were in bounds

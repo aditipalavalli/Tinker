@@ -1,0 +1,6 @@
+.code
+	add r1, r0, r3
+	xor r19, r19, r19
+	addi r19, 1
+	out r19, r7
+       

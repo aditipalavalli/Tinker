@@ -1,0 +1,16 @@
+.code
+	addi r5, 1
+	subi r6, 1340
+	shftri r5, 45
+	shftli r23, 25
+	mov r4, 130
+	ld r30, 1340
+;	subi r6, -1340
+;	shftri r5, -45
+;	shftli r23,-25
+;	mov r4, -130
+;	ld r30, -1340
+	mov r6, (r5)(100)
+	mov r6, (r5)(-100)
+	mov (r6)(100), r5
+	mov (r6)(-100), r5
